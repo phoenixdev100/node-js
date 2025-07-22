@@ -1,7 +1,8 @@
 const http = require('http');
 
-const html = `
-<!DOCTYPE html>
+const server = http.createServer((req, res) => {
+  res.writeHead(200, { 'Content-Type': 'text/html' });
+  res.end(`<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -19,14 +20,9 @@ const html = `
     <p class="mt-6 text-sm text-white text-opacity-70">Ready to build something amazing.</p>
   </div>
 </body>
-</html>
-`;
-
-const server = http.createServer((req, res) => {
-    res.writeHead(200, { 'Content-Type': 'text/html' });
-    res.end(html);
+</html>`);
 });
 
 server.listen(8000, () => {
-    console.log('Server running at http://localhost:8000');
+  console.log('Server running at http://localhost:8000');
 });
