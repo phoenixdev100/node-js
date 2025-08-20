@@ -1,0 +1,17 @@
+write a code in app.js => service
+and math.js file is called => controller 
+
+Conclusion
+----------
+- write a different service file and each file have different functionality.
+- we export them and write one file that controll all the service functionality.
+
+
+----------------------------------------------------------------------------
+
+In server.js
+Import fs module => so that we import html file.
+
+Conclusion
+----------
+- We can write different html file and all file will we added/imported using fs module.

@@ -1,0 +1,5 @@
+Notes:
+------
+This HTML form sends a POST request to /submit. You can handle that route if needed.
+
+If you want to process form data, you’ll need to add logic to parse the POST body.

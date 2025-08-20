@@ -1,0 +1,12 @@
+{
+  "name": "28_07_2025",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Shivram Singh Gurjar",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
