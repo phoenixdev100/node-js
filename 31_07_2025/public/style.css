@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: aliceblue;
+}
+
+/* .logo img {
+    width:150px;
+} */
+
+.menuBar {
+    display: flex;
+    gap: 20px;
+}
+
+.subMenu {
+    display: flex;
+    gap: 20px;
+}

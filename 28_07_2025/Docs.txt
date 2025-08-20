@@ -1,0 +1,14 @@
+To initialize backend project => npm init -y
+
+controller
+services
+routes
+validator
+model
+
+
+these 5 thing made backend
+
+request => routes -> controller -> services -> validator -> model -> database
+
+App.js

@@ -1,0 +1,213 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Upload .txt File</title>
+</head>
+<body>
+  <h2>Upload a .txt File</h2>
+  <form action="http://localhost:5001/upload" method="POST" enctype="multipart/form-data">
+    <input type="file" name="file" accept=".txt" required />
+    <br><br>
+    <button type="submit">Upload File</button>
+  </form>
+</body>
+</html> -->
+
+
+
+
+
+
+
+
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Upload Text File</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(to right, #e0eafc, #cfdef3);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            background-color: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+            width: 90%;
+            max-width: 400px;
+            text-align: center;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            color: #333;
+            font-size: 24px;
+        }
+
+        input[type="file"] {
+            display: block;
+            margin: 20px auto;
+            padding: 10px;
+            font-size: 14px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 100%;
+        }
+
+        button {
+            padding: 12px 20px;
+            background-color: #007bff;
+            border: none;
+            color: white;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        .footer {
+            margin-top: 15px;
+            font-size: 13px;
+            color: #888;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Upload a Text File</h1>
+        <form method="POST" action="/submit" enctype="multipart/form-data">
+            <input type="file" name="textfile" accept=".txt" required />
+            <button type="submit">Upload</button>
+        </form>
+        <div class="footer">Only .txt files are supported</div>
+    </div>
+</body>
+
+</html> -->
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Upload Text File</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb') no-repeat center center fixed;
+            background-size: cover;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+            width: 90%;
+            max-width: 400px;
+            text-align: center;
+            backdrop-filter: blur(5px);
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            color: #2c3e50;
+            font-size: 26px;
+            font-weight: 600;
+        }
+
+        input[type="file"] {
+            display: block;
+            margin: 20px auto;
+            padding: 12px;
+            font-size: 15px;
+            border: 2px dashed #3498db;
+            border-radius: 8px;
+            background-color: #ecf0f1;
+            width: 100%;
+            transition: border-color 0.3s ease;
+        }
+
+        input[type="file"]:hover {
+            border-color: #2980b9;
+        }
+
+        button {
+            padding: 12px 20px;
+            background: linear-gradient(45deg, #3498db, #2ecc71);
+            border: none;
+            color: white;
+            font-size: 16px;
+            font-weight: 500;
+            border-radius: 8px;
+            cursor: pointer;
+            width: 100%;
+            transition: transform 0.2s ease, background-color 0.3s ease;
+        }
+
+        button:hover {
+            transform: scale(1.03);
+            background: linear-gradient(45deg, #2980b9, #27ae60);
+        }
+
+        .footer {
+            margin-top: 15px;
+            font-size: 13px;
+            color: #555;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Upload a Text File</h1>
+        <form method="POST" action="/submit" enctype="multipart/form-data">
+            <input type="file" name="textfile" accept=".txt" required />
+            <button type="submit">Upload</button>
+        </form>
+        <div class="footer">Only .txt files are supported</div>
+    </div>
+</body>
+
+</html>

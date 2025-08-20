@@ -1,0 +1,2 @@
+HLD => High Level Design
+LLD => Low Level Design
